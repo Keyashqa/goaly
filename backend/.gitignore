@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+jspm_packages/
+
+# npm package lock file (unnecessary if using yarn)
+package-lock.json
+
+# Yarn integrity file
+.yarn-integrity
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+coverage/
+
+# Miscellaneous files
+*.bak
+*.swp
+
+# Ignore nodemon's log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
